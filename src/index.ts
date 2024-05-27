@@ -6,10 +6,10 @@ import dbConn from "./database.js";
 import { RequestData } from "./types.js";
 import { getData, getResponseObj } from "./utils.js";
 
+dotenv.config();
 const app = express();
 const port = process.env.PORT || 7000;
 
-dotenv.config();
 app.use(express.json());
 
 app.get("/", (req, res) => {
