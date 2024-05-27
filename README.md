@@ -4,7 +4,7 @@
 
 - already some data available in DB
 - you can add new data as well
-- you can set post request to server endpoint
+- you can send post request to server endpoint
 
 ### Request body format
 
